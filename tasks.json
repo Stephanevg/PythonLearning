@@ -1,0 +1,24 @@
+/*{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "echo",
+            "type": "shell",
+            "command": "echo Hello"
+        }
+    ]
+},
+*/
+
+{
+    "version": "0.1.0",
+    "command": "python",
+    "windows": {
+        "command": "C:\\Program Files (x86)\\Python36-32\\python.exe"
+        // "command": "C:\\Users\\prateekkumar.singh\\AppData\\Local\\Continuum\\Anaconda3\\python.exe"
+    },
+    "args": ["${file}"]
+}
+
