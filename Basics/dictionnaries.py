@@ -1,5 +1,5 @@
 #To declare a dictionnary:
-
+#Dicitonnaries are also know as "maps" or "Dict" in phyton
 dictionnary = {'Name':'Stephane','LastName':'van Gulick','Age':'cant remember!'}
 
 #reading values
@@ -29,3 +29,9 @@ del dictionnary['prefLanguage'];
 dictionnary.clear(); # removes all entries from the dictionnary.
 
 del dictionnary; #Deletes the entiere dictionnary.
+
+
+#Read information from dictionnaries
+
+print('%(language)s has %(number)03d quote types.' % {'language': "Python", "number": 2})
+

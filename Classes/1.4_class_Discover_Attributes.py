@@ -11,5 +11,13 @@ class Employee:
 
 NewEmployee = Employee("Stephane", "van Gulick")
 
-
 print(dir(NewEmployee))
+
+import sys
+print(sys.version)
+
+print("NewEmployee with repr()")
+print(repr(NewEmployee))
+
+print("NewEmployee with repr()")
+print(str(NewEmployee))
